@@ -54,12 +54,6 @@ export default function Register() {
               Register
             </button>
           </form>
-
-          {/* {error && (
-            <span style={{ color: 'red', marginTop: '10px' }}>
-              Try Again
-            </span>
-          )} */}
         </div>
         <img src={signupImg} alt="signup-img" className="signup-img" />
       </div>

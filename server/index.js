@@ -16,7 +16,7 @@ app.use(express.json());
 
 
 mongoose
-  .connect(process.env.MONGO_URL, {
+  .connect('mongodb+srv://mayurarde123:mayurarde@cluster0.q9uhl.mongodb.net/blog-blinks-api?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     // useCreateIndex: true,

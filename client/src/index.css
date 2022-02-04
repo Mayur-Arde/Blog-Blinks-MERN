@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  color: inherit;
 }
 
 body {
@@ -18,4 +19,23 @@ body {
 
 ul li {
   list-style: none;
+  text-decoration: none;
+}
+
+
+/*Scrollbar   */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(50, 50, 50, 0.959);
+  border-radius: 10px;
 }

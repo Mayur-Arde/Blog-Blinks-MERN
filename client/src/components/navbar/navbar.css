@@ -41,10 +41,9 @@
   cursor: pointer;
 }
 
-.link:hover {
-  color: #fff;
+.link{
+  text-decoration: none;
 }
-
 
 /* //MOBILE VIEW // */
 @media all and (max-width: 450px) {
