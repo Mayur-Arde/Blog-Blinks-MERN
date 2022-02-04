@@ -1,0 +1,7 @@
+.single{
+    display: flex;
+    padding: 1rem;
+    background-color: #101116;
+    color: #fff;
+    width: 100vw;
+}

@@ -1,0 +1,36 @@
+.hero-img{
+  width: 100%;
+  height: auto;
+}
+
+.hero{
+  background-color: #101116;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  width: 85%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: left;
+  height: auto;
+  color: #fff;
+  height: 50vh;
+}
+
+.hero-text h2{
+  margin-top: 0.5rem;
+}
+
+/* /* //MOBILE VIEW // */
+@media all and (max-width: 700px) {
+ .hero{
+   flex-direction: column;
+   margin-top: 1.5rem;
+   text-align: center;
+ }
+
+ .hero-img {
+  width: 80%;
+  height: 25vh;
+}
+}
