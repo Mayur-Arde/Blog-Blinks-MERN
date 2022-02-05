@@ -1,5 +1,7 @@
 # Blog-Blinks-MERN:
 
+### Demo video [Link](https://drive.google.com/file/d/11MAC0AfwnfO48sWC_lrwqbI1CnMKMHa2/view?usp=sharing)
+
 ## Getting Started
 
 These instructions to run on your local machine for development and testing purposes.
